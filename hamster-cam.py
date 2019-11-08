@@ -28,6 +28,7 @@ while 1==1:
             camera.stop_recording()
             recording = False
             print(str(now) + " Keine Bewegung detektiert - Aufnahme gestoppt")
+        sleep(5)
 
 #camera = PiCamera()
 #sleep(5)
