@@ -12,7 +12,7 @@ GPIO.setup(motionsensor_channel,GPIO.IN)
 camera = PiCamera()
 
 recording = False
-while 1==1:
+while True:
     now = datetime.now()
     now_formatted = now.strftime("%Y%m%d-%H%M%S")
     
